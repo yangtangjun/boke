@@ -1,0 +1,236 @@
+html,
+body {
+	overflow-x: hidden;
+	width: 100%;
+}
+.header{
+	height: 45px;
+}
+.header-warp{
+	width: 100%;
+}
+.header-warp .logo{
+	display: none;
+}
+.header-warp ul{
+	margin: auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+}
+.header-warp ul li{
+	width: 72px;
+	font-size: 13px;
+	line-height: 45px;
+}
+.banner .banner-warp .content1 {
+	width: 90%;
+	margin: 20px auto;
+}
+
+.banner .banner-warp .content1 strong {
+	font-size: 16px;
+}
+
+.main {
+	height: auto;
+}
+
+.main-warp {
+	width: 90%;
+	transform: none;
+	top: 0;
+	left: 0;
+	margin: 50px auto 50px;
+}
+
+.main-warp .main-top p {
+	font-size: 14px;
+}
+
+.main-warp .main-top .Thread {
+	width: 100%;
+}
+
+.main-warp .main-top .Thread span {
+	width: 120px;
+}
+
+.main-warp .main-bottom {
+	display: flex;
+	flex-direction: column;
+}
+
+.main-warp .main-bottom ul {
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.main2 {
+	height: auto;
+	background-color: #f9f9f9;
+}
+
+.main2-warp {
+	width: 90%;
+	transform: none;
+	margin: 50px auto 50px;
+	top: 0;
+	left: 0;
+}
+
+.main2-warp .main2-top {
+	width: 100%;
+}
+
+.main2-warp .main2-top p {
+	font-size: 14px;
+}
+.main2-warp .main2-bottom{
+	height: auto;
+}
+.main2-warp .main2-bottom .bottom2-left {
+	display: none;
+}
+
+.main2-warp .main2-bottom .bottom2-right {
+	display: none;
+}
+
+#container {
+	display: none;
+}
+
+.main2-bottom .bottom2-container {
+	display: block;
+}
+
+.main2-bottom .bottom2-container ul {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 5px #c4c3c3;
+	margin-bottom: 35px;
+	top: 200px;
+	position: relative;
+	opacity: 0;
+	transition: 1.5s;
+}
+
+.main2-bottom .bottom2-container ul img {
+	width: 100%;
+	transition: 0.6s;
+}
+.main2-bottom .bottom2-container ul img:hover{
+	transform: scale(1.1);
+}
+.main2-bottom .bottom2-container ul .ul-imgs {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.main2-bottom .bottom2-container ul h1 {
+	color: #000;
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.main2-bottom .bottom2-container ul span {
+	font-size: 14px;
+	color: #f67539;
+	margin-bottom: 15px;
+	display: block;
+}
+
+.main2-bottom .bottom2-container ul p {
+	color: #898989;
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: 3px;
+	padding-bottom: 30px;
+	width: 95%;
+	margin: auto;
+}
+.main3{
+	height: auto;
+	overflow: hidden;
+}
+.main3-warp{
+	/* top: 45%; */
+	width: 90%;
+	transform: none;
+	left: 0;
+	top: 0;
+	margin: 150px auto 150px;	
+	overflow: hidden;
+}
+.main3-warp .main3-top .Thread3{
+	width: 100%;
+}
+.main3-warp .main3-top .Thread3 span{
+	width: 120px;
+}
+.main3-warp .main3-bottom{
+	width: 100%;
+	height: auto;
+}
+.main3-warp .main3-bottom #Down{
+	position: static;
+	margin-top: 70px;
+}
+.footer{
+	height: auto;
+}
+.footer-warp{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+}
+.footer-warp .footer-left{
+	width: 100%;
+	height: auto;
+}
+.footer-warp .footer-left .footerL-warp{
+	width: 90%;
+	height: auto;
+	transform: none;
+	top: 0;
+	left: 0;
+	margin: 50px auto 50px;
+}
+.footer-left .footerL-warp .footerL-top .Thread{
+	width: 100%;
+}
+.footerL-warp .footerL-top .Thread span{
+	width: 120px;
+}
+.footerL-warp .footerL-bottom{
+	width: 90%;
+	height: auto;
+}
+.footer-warp .footer-right .footerR-warp{
+	width: 90%;
+	transform: none;
+	top: 0;
+	left: 0;
+	margin: 50px auto 50px;
+	
+}
+.footer-right .footerR-warp .footerR-top .Thread{
+	width: 100%;
+}
+.footer-right .footerR-warp .footerR-top .Thread span{
+	width: 120px;
+}
+.footer-right .footerR-warp .footerR-bottom{
+	width: 70%;
+}
+.footer-warp .footer-right{
+	height: auto;
+	width: 100%;
+	background: none;
+}
